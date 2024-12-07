@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-rosa: #F9CAEB;
+    --cor-azul: #8DEAFB;
+    --cor-branca: #ffffff;
+    --cor-cinza: #D9D9D9;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.topo-menu {
+    background-color: #F9CAEB;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 50px;
+}
+
+.logo-menu{
+    background-color: #8DEAFB;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 100px;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    color: #0095ff;
+}
+
+.lancamentos-itens {
+    background-color: #D9D9D9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.mais-vendidos-itens {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.piercing-itens {
+    background-color: #D9D9D9;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.aneis-itens {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.fotos-item {
+    text-align: center;
+    flex: 1 1 18%;
+}
+
+.fotos-item img {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
+
+.fotos-item span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.rodape-menu{
+    width:30%;
+}
+
+
+@media (max-width: 768px) {
+    .fotos-item {
+        flex: 1 1 45%;
+    }
+    
+}
